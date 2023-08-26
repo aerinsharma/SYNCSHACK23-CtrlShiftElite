@@ -1,0 +1,78 @@
+a:link, a:visited {
+    background-color: #0A2027;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #0A2027;
+  }
+  #container{
+    border:1px solid #333;
+    border-radius :999px;
+    width:400px;
+    margin:20px auto;
+    padding:100px;
+    text-align:center;
+    background :white;
+  }
+  
+  #timer{ 
+    color:#0A2027; 
+    font-size:50px; 
+    margin:10px auto;
+    border : 5px solid 0A2027;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+  }
+  
+  #time{
+    margin-top:70px;
+    z-index : 1;
+    position:relative;
+  }
+  
+  #filler{
+    background : #ddffcc;
+    height: 0px;
+    width: 200px;
+    position:absolute;
+    bottom:0;
+  }
+  
+  #buttons button { 
+    background:#0A2027; 
+    border:none; 
+    color:#fff; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+  }
+  
+  #buttons button#shortBreak{
+    background : #0A2027;
+  }
+  
+  #buttons button#longBreak{
+    background : #0A2027;
+  }
+  
+  #buttons button#stop{
+    background : #0A2027;
+  }
+  
